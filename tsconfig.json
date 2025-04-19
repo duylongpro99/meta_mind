@@ -4,10 +4,10 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/meta-mind-e2e"
+      "path": "./apps/web-e2e"
     },
     {
-      "path": "./apps/meta-mind"
+      "path": "./apps/web"
     }
   ]
 }
