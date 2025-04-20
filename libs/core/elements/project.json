@@ -1,7 +1,7 @@
 {
-  "name": "core-elements",
+  "name": "elements",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/core-elements/src",
+  "sourceRoot": "libs/core/elements/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -10,8 +10,8 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/libs/core-elements",
-        "configFile": "libs/core-elements/vite.config.ts"
+        "outputPath": "dist/libs/core/elements",
+        "configFile": "libs/core/elements/vite.config.ts"
       },
       "configurations": {
         "development": {
@@ -26,7 +26,7 @@
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/core-elements/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["libs/core/elements/**/*.{ts,tsx,js,jsx}"]
       }
     }
   }

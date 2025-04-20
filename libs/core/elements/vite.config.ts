@@ -7,7 +7,7 @@ import dts from 'vite-plugin-dts';
 
 export default defineConfig(() => ({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/libs/core-elements',
+  cacheDir: '../../node_modules/.vite/libs/core/elements',
   plugins: [
     react(),
     dts({
@@ -25,7 +25,7 @@ export default defineConfig(() => ({
     },
     lib: {
       entry: 'src/index.ts',
-      name: '@meta-mind/core-elements',
+      name: '@meta-mind/elements',
       fileName: 'index',
       // Change this to the formats you want to support.
       // Don't forget to update your package.json as well.

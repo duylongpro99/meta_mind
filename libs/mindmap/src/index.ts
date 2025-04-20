@@ -1,2 +1,2 @@
-export * from './lib/core-elements';
+export * from './lib';
 import './global.css';
