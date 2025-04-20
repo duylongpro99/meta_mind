@@ -25,19 +25,20 @@
         "./src/*"
       ]
     },
-    "outDir": "dist",
-    "rootDir": "src",
-    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
+    "outDir": "../../dist/apps/web",
+    // Remove rootDir to allow Next.js to generate files outside src
+    "tsBuildInfoFile": "../../dist/apps/web/.tsbuildinfo"
   },
   "include": [
-    ".next/types/**/*.ts",
     "../../dist/apps/web/.next/types/**/*.ts",
+    ".next/types/**/*.ts",
+    ".next/types/**/*.ts",
     "next-env.d.ts",
     "src/**/*.js",
     "src/**/*.jsx",
     "src/**/*.ts",
     "src/**/*.tsx",
-    ".next/types/**/*.ts"
+    "../../apps/web/.next/types/**/*.ts"
   ],
   "exclude": [
     "out-tsc",
