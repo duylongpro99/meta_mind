@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "bun nx dev web",
-    "build": "bun nx build web"
+    "build:web": "NX_DAEMON=false bun nx build web",
+    "graph": "bun nx graph"
   },
   "private": true,
   "dependencies": {
@@ -29,6 +30,7 @@
     "@swc/cli": "0.7.3",
     "@swc/core": "1.11.21",
     "@swc/helpers": "~0.5.11",
+    "@tailwindcss/postcss": "^4.1.4",
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
     "autoprefixer": "10.4.13",
