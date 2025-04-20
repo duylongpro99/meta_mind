@@ -6,8 +6,8 @@
     "dev": "bun nx dev web",
     "bd:web": "bun nx build web --configuration=development",
     "bp:web": "bun nx build web --configuration=production",
-    "bd:elements": "bun nx build core-elements --configuration=development",
-    "bp:elements": "bun nx build core-elements --configuration=production",
+    "bd:elements": "bun nx build elements --configuration=development",
+    "bp:elements": "bun nx build elements --configuration=production",
     "graph": "bun nx graph"
   },
   "private": true,

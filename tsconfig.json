@@ -10,7 +10,13 @@
       "path": "./apps/web"
     },
     {
-      "path": "./libs/core-elements"
+      "path": "./libs/core/elements"
+    },
+    {
+      "path": "./libs/editor"
+    },
+    {
+      "path": "./libs/mindmap"
     }
   ]
 }

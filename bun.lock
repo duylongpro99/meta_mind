@@ -74,13 +74,6 @@
       "name": "web-e2e",
       "version": "0.0.1",
     },
-    "libs/core-elements": {
-      "name": "@meta-mind/core-elements",
-      "version": "0.0.1",
-      "peerDependencies": {
-        "vite": "^6.0.0",
-      },
-    },
     "libs/editor": {
       "name": "@meta-mind/editor",
       "version": "0.0.1",
@@ -460,8 +453,6 @@
     "@jsonjoy.com/util": ["@jsonjoy.com/util@1.5.0", "", { "peerDependencies": { "tslib": "2" } }, "sha512-ojoNsrIuPI9g6o8UxhraZQSyF2ByJanAY4cTFbc8Mf2AXEF4aQRGY1dJxyJpuyav8r9FGflEt/Ff3u5Nt6YMPA=="],
 
     "@leichtgewicht/ip-codec": ["@leichtgewicht/ip-codec@2.0.5", "", {}, "sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw=="],
-
-    "@meta-mind/core-elements": ["@meta-mind/core-elements@workspace:libs/core-elements"],
 
     "@meta-mind/editor": ["@meta-mind/editor@workspace:libs/editor"],
 
