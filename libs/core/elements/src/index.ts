@@ -1,2 +1,2 @@
 export * from './lib';
-import './global.css';
+import './styles/globals.css';
