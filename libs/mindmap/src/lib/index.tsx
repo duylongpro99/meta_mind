@@ -2,7 +2,7 @@ export function Index() {
   return (
     <div className="p-4 bg-gray-100 rounded-lg">
       <h1 className="text-2xl font-bold text-gray-800">
-        Welcome to CoreElements!
+        Welcome to Mindmap!
       </h1>
     </div>
   );
